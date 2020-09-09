@@ -1,0 +1,113 @@
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+#titulo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body{
+    
+    font-family: monospace, sans-serif;
+    margin: 0;
+    /* color: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,40,125,1) 46%, rgba(0,212,255,1) 100%);
+    min-height: 100vh;
+}
+.quiz-container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+}
+.quiz-header{
+    padding: 4rem;
+}
+h2{
+    margin: 0;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #661297;
+    border: none;
+    color: whitesmoke;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover{
+    background-color: #40095f;
+}
+
+button:focus{
+    background-color: #732d91;
+    outline: none;
+}
+
+h1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    margin-bottom: 500px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
